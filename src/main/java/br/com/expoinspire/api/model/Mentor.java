@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Id;
 @Data
 @Entity
 @Table(name = "mentores")
-public class Mentores {
+public class Mentor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

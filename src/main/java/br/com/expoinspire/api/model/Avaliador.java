@@ -3,14 +3,13 @@ package br.com.expoinspire.api.model;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
-import org.springframework.stereotype.Controller;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Data
 @Table(name = "Avaliador")
-public class Avalidador {
+public class Avaliador {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
