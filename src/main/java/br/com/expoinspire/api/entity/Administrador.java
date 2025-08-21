@@ -1,4 +1,4 @@
-package br.com.expoinspire.api.model;
+package br.com.expoinspire.api.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -11,7 +11,7 @@ public class Administrador {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String userName;
+    private String username;
     private String password;
     private String role;
 }

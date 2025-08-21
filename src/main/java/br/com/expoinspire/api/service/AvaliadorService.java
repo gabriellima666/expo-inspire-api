@@ -7,7 +7,7 @@ import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.expoinspire.api.model.Avaliador;
+import br.com.expoinspire.api.entity.Avaliador;
 import br.com.expoinspire.api.repository.AvaliadorRepository;
 
 @Service

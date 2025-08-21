@@ -1,4 +1,4 @@
-package br.com.expoinspire.api.model;
+package br.com.expoinspire.api.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package br.com.expoinspire.api.model;
+package br.com.expoinspire.api.entity;
 
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
